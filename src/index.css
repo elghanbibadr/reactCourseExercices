@@ -71,7 +71,7 @@ button:focus-visible {
 
 
 
-form{
+form,ul{
   background-color: white;
   padding: 1rem;
   border-radius: 10px;
@@ -80,6 +80,11 @@ form{
   text-align: left;
 }
 
+ul{
+  list-style: none;
+  font-weight: bold;
+  padding-right: 1rem;
+}
 
 input{
   padding: 10px;
@@ -88,7 +93,14 @@ input{
   width: 90%;
 }
 
-label{
+li{
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding:10px 5px;
+}
+
+label,button{
   font-weight: bold;
   margin-left: 10px;
 }
+
